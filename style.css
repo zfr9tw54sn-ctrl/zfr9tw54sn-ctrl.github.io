@@ -1,0 +1,1389 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+
+    font-family: "Manrope", Arial, sans-serif;
+
+    background: #f6f5f1;
+
+    color: #242424;
+
+    line-height: 1.5;
+
+}
+
+
+img {
+
+    max-width: 100%;
+
+    display: block;
+
+}
+
+
+a {
+
+    text-decoration: none;
+
+    color: inherit;
+
+}
+
+
+/* =====================================
+   HEADER (ВСЕ СТРАНИЦЫ)
+===================================== */
+
+
+header {
+
+    width: 100%;
+
+    padding: 40px 80px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+
+
+.logo {
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+    letter-spacing: 4px;
+
+}
+
+
+
+nav {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 25px;
+
+}
+
+
+
+nav a {
+
+    font-size: 14px;
+
+    letter-spacing: 2px;
+
+}
+
+
+
+.language {
+
+    display: flex;
+
+    gap: 10px;
+
+}
+
+
+
+button {
+
+    background: none;
+
+    border: none;
+
+    cursor: pointer;
+
+    font-size: 14px;
+
+    letter-spacing: 2px;
+
+}
+
+
+
+button:hover {
+
+    color:#b08b57;
+
+}
+
+
+/* =====================================
+   ГЛАВНАЯ СТРАНИЦА INDEX
+===================================== */
+
+
+.hero {
+
+
+    min-height: calc(100vh - 100px);
+
+    padding: 40px 80px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:50px;
+
+
+}
+
+
+
+.hero-text {
+
+    width:45%;
+
+}
+
+
+
+.profession {
+
+
+    color:#b08b57;
+
+    letter-spacing:6px;
+
+    font-size:15px;
+
+    margin-bottom:30px;
+
+
+}
+
+
+
+.hero h1 {
+
+
+    font-size:80px;
+
+    line-height:1.05;
+
+    font-weight:600;
+
+    margin-bottom:35px;
+
+
+}
+
+
+
+.hero-description {
+
+
+    max-width:520px;
+
+    color:#666;
+
+    font-size:18px;
+
+    line-height:1.8;
+
+}
+
+
+
+.main-button {
+
+
+    display:inline-block;
+
+    margin-top:45px;
+
+    padding:18px 45px;
+
+    border:1px solid #222;
+
+    letter-spacing:2px;
+
+    transition:.3s;
+
+
+}
+
+
+
+.main-button:hover {
+
+
+    background:#222;
+
+    color:white;
+
+
+}
+
+
+
+
+.hero-image {
+
+
+    width:45%;
+
+    height:720px;
+
+}
+
+
+
+.hero-image img {
+
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    border-radius:3px;
+
+
+}
+
+
+
+
+/* =====================================
+   PROJECTS PAGE
+===================================== */
+
+
+
+.projects-page {
+
+
+    padding:40px 80px 100px;
+
+
+}
+
+
+
+.back {
+
+
+    display:inline-block;
+
+    margin-bottom:60px;
+
+    font-size:14px;
+
+    letter-spacing:2px;
+
+    color:#777;
+
+
+}
+
+
+
+.projects-title {
+
+
+    font-size:70px;
+
+    font-weight:600;
+
+    margin-bottom:80px;
+
+
+}
+
+
+
+.projects-grid {
+
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:80px 50px;
+
+
+}
+
+
+
+.project-card {
+
+
+    background:#fff;
+
+
+}
+
+
+
+.project-card img {
+
+
+    width:100%;
+
+    height:550px;
+
+    object-fit:cover;
+
+
+}
+
+
+
+.project-info {
+
+
+    padding:35px;
+
+
+}
+
+
+
+.project-number {
+
+
+    color:#b08b57;
+
+    letter-spacing:5px;
+
+    font-size:14px;
+
+
+}
+
+
+
+.project-info h2 {
+
+
+    font-size:32px;
+
+    margin:20px 0;
+
+
+}
+
+
+
+.project-info p {
+
+
+    color:#777;
+
+    margin-bottom:25px;
+
+
+}
+
+
+
+.project-link {
+
+
+    font-size:14px;
+
+    letter-spacing:3px;
+
+
+}
+
+
+
+/* =====================================
+   СТРАНИЦА ОТДЕЛЬНОГО ПРОЕКТА
+===================================== */
+
+
+
+.project-page {
+
+
+    padding:40px 80px 120px;
+
+
+}
+
+
+
+
+.project-cover {
+
+
+    margin-bottom:100px;
+
+
+}
+
+
+
+.project-cover img {
+
+
+    width:100%;
+
+    height:850px;
+
+    object-fit:cover;
+
+
+}
+
+
+
+.project-cover h1 {
+
+
+    font-size:80px;
+
+    margin-top:40px;
+
+    font-weight:600;
+
+
+}
+
+
+
+
+.project-section {
+
+
+    margin-bottom:100px;
+
+
+}
+
+
+
+.project-section h2 {
+
+
+    font-size:45px;
+
+    margin-bottom:35px;
+
+    font-weight:500;
+
+
+}
+
+
+
+.project-section p {
+
+
+    max-width:700px;
+
+    color:#666;
+
+    font-size:18px;
+
+    line-height:1.8;
+
+
+}
+
+
+
+/* =====================================
+   ГАЛЕРЕЯ В ПРОЕКТАХ
+===================================== */
+
+
+.project-gallery {
+
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:40px;
+
+
+}
+
+
+
+.project-gallery img {
+
+
+    width:100%;
+
+    height:500px;
+
+    object-fit:cover;
+
+
+}
+
+
+
+.project-gallery .big {
+
+
+    grid-column:span 2;
+
+    height:700px;
+
+
+}
+
+
+
+/* =====================================
+   ЧЕРТЕЖИ
+===================================== */
+
+
+.drawings {
+
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+
+
+}
+
+
+
+.drawings img {
+
+
+    background:white;
+
+    padding:20px;
+
+
+}
+
+
+
+/* =====================================
+   FOOTER
+===================================== */
+
+
+footer {
+
+
+    padding:50px 80px;
+
+    color:#777;
+
+    font-size:14px;
+
+
+}
+
+
+
+/* =====================================
+   АДАПТИВ
+===================================== */
+
+
+@media(max-width:1000px){
+
+
+
+header,
+.hero {
+
+
+    padding:30px;
+
+
+}
+
+
+
+.hero {
+
+
+    flex-direction:column;
+
+}
+
+
+
+.hero-text,
+.hero-image {
+
+
+    width:100%;
+
+
+}
+
+
+
+.hero h1 {
+
+
+    font-size:50px;
+
+
+}
+
+
+
+.hero-image {
+
+
+    height:500px;
+
+
+}
+
+
+
+.projects-grid {
+
+
+    grid-template-columns:1fr;
+
+
+}
+
+
+
+.project-gallery {
+
+
+    grid-template-columns:1fr;
+
+
+}
+
+
+
+.drawings {
+
+
+    grid-template-columns:1fr;
+
+
+}
+
+
+}
+
+@media (max-width: 1400px){
+
+
+    .hero {
+
+        gap:40px;
+
+    }
+
+
+    .hero-text h1{
+
+        font-size:70px;
+
+    }
+
+
+
+    .hero-image img{
+
+        max-width:550px;
+
+    }
+
+
+
+    .projects-grid{
+
+        gap:30px;
+
+    }
+
+
+}
+
+
+
+
+
+
+/* =========================
+   TABLETS
+   768 - 1100 px
+========================= */
+
+
+@media (max-width:1100px){
+
+
+
+    header{
+
+        padding:25px 40px;
+
+    }
+
+
+
+
+    .hero{
+
+
+        display:flex;
+
+        flex-direction:column;
+
+        text-align:center;
+
+        padding:60px 40px;
+
+
+    }
+
+
+
+
+
+    .hero-text{
+
+
+        max-width:700px;
+
+        margin:auto;
+
+
+    }
+
+
+
+
+    .hero-text h1{
+
+
+        font-size:60px;
+
+
+    }
+
+
+
+
+
+    .hero-description{
+
+
+        font-size:18px;
+
+
+    }
+
+
+
+
+
+
+    .hero-image{
+
+
+        margin-top:40px;
+
+
+    }
+
+
+
+    .hero-image img{
+
+
+        width:80%;
+
+
+    }
+
+
+
+
+
+    /* PROJECTS */
+
+
+    .projects-grid{
+
+
+        grid-template-columns:1fr 1fr;
+
+
+    }
+
+
+
+
+
+    .project-cover h1{
+
+
+        font-size:55px;
+
+
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/* =========================
+   MOBILE
+   до 767px
+========================= */
+
+
+@media (max-width:767px){
+
+
+
+
+
+    body{
+
+        overflow-x:hidden;
+
+    }
+
+
+
+
+    header{
+
+
+        padding:20px;
+
+        flex-direction:column;
+
+        gap:20px;
+
+
+    }
+
+
+
+
+
+    .logo{
+
+
+        font-size:22px;
+
+
+    }
+
+
+
+
+    nav{
+
+
+        width:100%;
+
+        justify-content:center;
+
+        gap:15px;
+
+
+    }
+
+
+
+
+
+    nav a{
+
+
+        font-size:13px;
+
+
+    }
+
+
+
+
+
+    button{
+
+
+        padding:8px 12px;
+
+
+    }
+
+
+
+
+
+
+
+    /* HERO */
+
+
+
+    .hero{
+
+
+        padding:40px 20px;
+
+
+    }
+
+
+
+
+
+    .profession{
+
+
+        font-size:14px;
+
+
+    }
+
+
+
+
+
+    .hero-text h1{
+
+
+        font-size:42px;
+
+        line-height:1.1;
+
+
+    }
+
+
+
+
+
+    .hero-description{
+
+
+        font-size:16px;
+
+
+        line-height:1.5;
+
+
+    }
+
+
+
+
+
+    .main-button{
+
+
+        display:inline-block;
+
+
+        margin-top:25px;
+
+
+    }
+
+
+
+
+
+
+    .hero-image img{
+
+
+        width:100%;
+
+
+    }
+
+
+
+
+
+
+
+
+    /* PROJECT LIST */
+
+
+    .projects-page{
+
+
+        padding:30px 20px;
+
+
+    }
+
+
+
+
+
+    .projects-title{
+
+
+        font-size:38px;
+
+
+    }
+
+
+
+
+
+    .projects-grid{
+
+
+        grid-template-columns:1fr;
+
+
+    }
+
+
+
+
+
+    .project-card img{
+
+
+        height:350px;
+
+
+    }
+
+
+
+
+
+    .project-info h2{
+
+
+        font-size:26px;
+
+
+    }
+
+
+
+
+
+
+
+
+    /* PROJECT PAGES */
+
+
+
+    .project-page{
+
+
+        padding:30px 20px;
+
+
+    }
+
+
+
+
+
+    .project-cover img{
+
+
+        height:55vh;
+
+
+    }
+
+
+
+
+
+
+    .project-cover h1{
+
+
+        font-size:38px;
+
+        bottom:30px;
+
+        left:20px;
+
+
+    }
+
+
+
+
+
+
+
+    .project-section h2{
+
+
+        font-size:30px;
+
+
+    }
+
+
+
+
+
+    .project-section p{
+
+
+        font-size:16px;
+
+
+    }
+
+
+
+
+
+
+    .project-gallery{
+
+
+        grid-template-columns:1fr;
+
+
+    }
+
+
+
+
+
+    .project-gallery img{
+
+
+        width:100%;
+
+
+    }
+
+
+
+
+
+
+
+    .drawings{
+
+
+        grid-template-columns:1fr;
+
+
+    }
+
+
+
+
+
+    .drawings img{
+
+
+        width:100%;
+
+
+    }
+
+
+
+
+}
+
+footer{
+
+    margin-top:120px;
+
+    padding:50px 80px 30px;
+
+    border-top:1px solid #ddd;
+
+}
+
+
+
+.footer-content{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    gap:50px;
+
+}
+
+
+
+.footer-info h3,
+.footer-contact h3{
+
+    font-size:20px;
+
+    margin-bottom:15px;
+
+}
+
+
+
+.footer-info p{
+
+    color:#666;
+
+}
+
+
+
+.footer-contact{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:10px;
+
+}
+
+
+
+.footer-contact a{
+
+    color:#222;
+
+    text-decoration:none;
+
+}
+
+
+
+.footer-bottom{
+
+    margin-top:40px;
+
+    color:#777;
+
+    font-size:14px;
+
+}
+
+
+
+
+
+@media(max-width:767px){
+
+
+.footer-content{
+
+    flex-direction:column;
+
+}
+
+
+footer{
+
+    padding:40px 20px 20px;
+
+}
+
+
+}
+
+
+
+
+
+
+/* =========================
+   SMALL PHONES
+   до 400px
+========================= */
+
+
+@media (max-width:400px){
+
+
+
+    .hero-text h1{
+
+
+        font-size:36px;
+
+
+    }
+
+
+
+
+
+    .projects-title{
+
+
+        font-size:32px;
+
+
+    }
+
+
+
+
+    .project-cover h1{
+
+
+        font-size:30px;
+
+
+    }
+
+
+
+
+}
+
