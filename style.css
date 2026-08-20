@@ -564,12 +564,9 @@ button:hover {
 
 .drawings {
 
-
-    display:grid;
-
-    grid-template-columns:repeat(3,1fr);
-
-    gap:30px;
+display: flex;
+    flex-direction: column;
+    gap: 30px;
 
 
 }
@@ -578,10 +575,11 @@ button:hover {
 
 .drawings img {
 
-
-    background:white;
-
-    padding:20px;
+width: 100%;
+    height: 850px;
+    object-fit: contain;
+    background: white;
+    padding: 20px;
 
 
 }
@@ -1228,7 +1226,11 @@ header,
     .drawings img{
 
 
-        width:100%;
+        width: 100%;
+    height: clamp(500px, 55vw, 850px);
+    object-fit: contain;
+    background: white;
+    padding: 20px;
 
 
     }
