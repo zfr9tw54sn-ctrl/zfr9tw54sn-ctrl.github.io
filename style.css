@@ -1189,7 +1189,7 @@ header,
 
 
         grid-template-columns:1fr;
-
+         gap: 25px;
 
     }
 
@@ -1201,8 +1201,8 @@ header,
 
 
         width:100%;
-
-
+        height: auto;
+     object-fit: contain;
     }
 
 
